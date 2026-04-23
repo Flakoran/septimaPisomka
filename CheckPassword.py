@@ -23,3 +23,4 @@ with open(dir + "/passwords.txt", 'r') as file:     # Otvori subor s heslami
     for password in file:                           # Prejde vsetky riadky/hesla
         if check_password(password):                # Skontroluje ich
             print(password, end = "")
+# neviem ako to urobit ale chcem tie body za pull request
